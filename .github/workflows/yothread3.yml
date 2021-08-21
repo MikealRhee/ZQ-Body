@@ -1,4 +1,4 @@
-name: 中青阅读3（无言以对）
+name: 中青阅读3（无）
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/QingAnLe/ZQ-Body.git ~/js
+          git clone https://github.com/FerPina/ZQ-Body.git ~/js
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
